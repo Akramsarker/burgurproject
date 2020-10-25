@@ -1,0 +1,75 @@
+/*****tablet *****/
+#hungry input {
+    border: none;
+    width: 80%;
+    height: 53px;
+    padding: .90rem;
+}
+
+/****smartphone****/
+@media(max-width: 500px) {
+   /* navbar */
+    #navbar .info-container {
+    flex-direction: column;
+    }
+
+    #navbar h2  {
+    margin-bottom: 2rem;
+    }
+
+    #navbar .social {
+    margin-bottom: 2rem;
+    }
+
+
+    #navbar .info-container ul li a {
+    padding: 10px;
+    }
+
+    /* hungry */
+
+    #hungry .info-hungry {
+    grid-template-columns: 1fr;
+
+    }
+
+    #hungry .info-side h1 {
+    font-size: 1.3rem;
+    }
+
+    #hungry .info img {
+    padding: 1rem;
+    }
+
+    
+
+    /* order */
+    #order .info-container h1 {
+    font-size: 1.2rem;
+    }
+
+    /* contact */
+    #contact .info-contact  {
+    grid-template-columns: 1fr;
+    }
+    #contact .info-contact .from {
+    box-shadow: unset; 
+    }
+
+
+    /* footer */
+    #main-footer .info-footer{
+    flex-direction: column;
+    }
+
+    #main-footer p{
+    order: 2;
+    font-size: 12px;
+    }
+
+    #main-footer .social i {
+    order: 1;
+    margin-bottom: 2rem;
+    }
+
+}
